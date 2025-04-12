@@ -1,0 +1,67 @@
+body {
+  font-family: 'Tahoma', sans-serif;
+  background-color: #fff0f5;
+  margin: 0;
+  text-align: center;
+  direction: rtl;
+}
+
+header {
+  background-color: #d63384;
+  color: white;
+  padding: 40px 0;
+}
+
+section {
+  padding: 30px 15px;
+}
+
+h2 {
+  color: #b1005c;
+}
+
+.rsvp form input,
+.rsvp form select {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #d63384;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.gallery .photos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 150px;
+  border-radius: 8px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+iframe {
+  width: 90%;
+  height: 300px;
+  border: none;
+  margin-top: 15px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px 0;
+}
